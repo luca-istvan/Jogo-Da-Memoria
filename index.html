@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da memória</title>
+</head>
+<!-- Link para o arquivo de estilização do CSS -->
+<link rel="stylesheet" href="css/styles.css">
+
+<body>   
+  <section class="header">
+    <h1>Jogo da memória</h1>
+    <button id="start">Iniciar</button>
+    <span id="timer">00:00</span>  
+  </section>
+
+  <!-- Início do container principal -->
+  <section class="memory-game">    
+  
+    <!-- Início das seções dos cards - 12 cards (cartões)-->
+    <section class="memory-card" data-framework="svj">
+      <!-- O que são Data Attributes?
+        São atributos criados por você no HTML para guardar informações extras em uma tag 
+        sem precisar criar classes ou IDs.Exemplo no HTML:<div data-status="ativo" 
+        data-cor="azul">Texto</div>-->
+      <img class="front-face" src="img/carro.jpg" alt="carro" />
+      <img class="back-face" src="img/svj.jpg" alt="SVJ" />
+    </section>
+
+    <section class="memory-card" data-framework="svj">
+      <img class="front-face" src="img/carro.jpg" alt="carro" />
+      <img class="back-face" src="img/svj.jpg" alt="SVJ" />
+    </section>
+
+    <section class="memory-card" data-framework="bolide">
+      <img class="front-face" src="img/carro.jpg" alt="carro" />
+      <img class="back-face" src="img/bolide.jpg" alt="Bolide" />
+    </section>
+
+    <section class="memory-card" data-framework="bolide">
+      <img class="front-face" src="img/carro.jpg" alt="carro" />
+      <img class="back-face" src="img/bolide.jpg" alt="Bolide" />
+    </section>
+
+    <section class="memory-card" data-framework="499p">
+      <img class="front-face" src="img/carro.jpg" alt="carro" />
+      <img class="back-face" src="img/499p.jpg" alt="499P" />
+    </section>
+
+    <section class="memory-card" data-framework="499p">
+      <img class="front-face" src="img/carro.jpg" alt="carro" />
+      <img class="back-face" src="img/499p.jpg" alt="499P" />
+    </section>
+
+    <section class="memory-card" data-framework="mp4">
+      <img class="front-face" src="img/carro.jpg" alt="carro" />
+      <img class="back-face" src="img/mp4.jpg" alt="mp4" />
+    </section>
+
+    <section class="memory-card" data-framework="mp4">
+      <img class="front-face" src="img/carro.jpg" alt="carro" />
+      <img class="back-face" src="img/mp4.jpg" alt="mp4" />
+    </section>
+
+    <section class="memory-card" data-framework="veneno">
+      <img class="front-face" src="img/carro.jpg" alt="carro" />
+      <img class="back-face" src="img/veneno.jpg" alt="Veneno" />
+    </section>
+
+    <section class="memory-card" data-framework="veneno">
+      <img class="front-face" src="img/carro.jpg" alt="carro" />
+      <img class="back-face" src="img/veneno.jpg" alt="Veneno" />
+    </section>
+
+    <section class="memory-card" data-framework="f40">
+      <img class="front-face" src="img/carro.jpg" alt="carro" />
+      <img class="back-face" src="img/f40.jpg" alt="F40" />
+    </section>
+
+    <section class="memory-card" data-framework="f40">
+      <img class="front-face" src="img/carro.jpg" alt="carro" />
+      <img class="back-face" src="img/f40.jpg" alt="f40" />
+    </section>
+    <!-- Fim das seções dos cards-->
+
+  </section>
+  <!-- Fim do container principal -->
+
+  <!-- Link para o arquivo Javascript, que será iniciado na próxima semana -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
